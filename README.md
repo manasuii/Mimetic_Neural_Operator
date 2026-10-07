@@ -13,7 +13,7 @@ soft-penalty ablation and an unstructured black-box GNN.
 ## 1. Quick start
 
 ```bash
-git clone <your-repo-url> mimetic-neural-operator
+git clone <https://github.com/manasuii/Mimetic_Neural_Operator.git> mimetic-neural-operator
 cd mimetic-neural-operator
 
 python -m venv .venv
