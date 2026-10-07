@@ -7,10 +7,6 @@ column sums of exactly zero. This repo asks whether a *learned* flux operator
 wrapped in that same structure keeps the guarantee — and compares it against a
 soft-penalty ablation and an unstructured black-box GNN.
 
-This is a direct port of the Colab notebook `Mimetic_corrected_with_topology.ipynb`.
-**No logic was changed**: every function and class body is the notebook's, relocated
-into modules. The only additions are plumbing (save/load between stages, CLI flags,
-figure paths) that the notebook did not need because it ran in one process.
 
 ---
 
