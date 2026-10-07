@@ -2,9 +2,9 @@
 
 Code, training and results for the **mimetic-vs-black-box** study on district-heating
 style networks. A hand-built mimetic discretization conserves energy to machine
-precision for *any* flux law, because the signed incidence operator `B` has
-column sums of exactly zero. This repo asks whether a *learned* flux operator
-wrapped in that same structure keeps the guarantee — and compares it against a
+precision for any flux law, because the signed incidence operator `B` has
+column sums of exactly zero. This repo asks whether a learned flux operator
+wrapped in that same structure keeps the guarantee and compares it against a
 soft-penalty ablation and an unstructured black-box GNN.
 
 
