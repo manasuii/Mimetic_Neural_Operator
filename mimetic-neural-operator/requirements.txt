@@ -1,0 +1,10 @@
+# Runtime dependencies — everything the notebook imported.
+torch>=2.0
+numpy>=1.24
+networkx>=3.0
+matplotlib>=3.7
+scipy>=1.10
+
+# Optional: real municipal utility topology for Stage 6.
+# The code falls back to a NetworkX spatial graph when this is absent.
+# pandapipes>=0.8
